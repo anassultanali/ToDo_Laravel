@@ -28,4 +28,10 @@ class ToDoController extends Controller
         return redirect('/' );
     }
 
+    function update(ToDo $task) {
+        $task->update(['inDone' => true]);
+
+        return redirect('/');
+    }
+
 }
