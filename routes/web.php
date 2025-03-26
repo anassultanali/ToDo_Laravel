@@ -17,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/' , [ToDoController::class , 'index']);
 Route::post('/' ,[ToDoController::class , 'store'] );
 Route::patch('/{task}' , [ToDoController::class , 'update']);
+Route::delete('/{task} ' , [ToDoController::class , 'destroy']);

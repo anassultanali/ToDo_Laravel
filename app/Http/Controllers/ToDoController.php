@@ -29,7 +29,18 @@ class ToDoController extends Controller
     }
 
     function update(ToDo $task) {
-        $task->update(['inDone' => true]);
+        
+        
+
+        $task->update(['isDon' => true ]);
+
+
+        return redirect('/');
+    }
+
+    function destroy(ToDo $task) {
+        
+        $task->delete();
 
         return redirect('/');
     }
