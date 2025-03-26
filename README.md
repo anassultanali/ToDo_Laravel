@@ -6,45 +6,10 @@
 
 A simple and clean To-Do List application built with **Laravel** and **Tailwind CSS**. 🚀
 
----
+## 📸 Screenshots
+<img src="1.png"/> 
 
-## 🔧 Installation & Setup
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/your-username/todo-list.git
-cd todo-list
-```
-
-### 2️⃣ Install Dependencies
-```bash
-composer install
-npm install
-```
-
-### 3️⃣ Configure Environment
-- Copy the `.env.example` file and rename it to `.env`
-```bash
-cp .env.example .env
-```
-- Generate the application key:
-```bash
-php artisan key:generate
-```
-- Set up your **database** in the `.env` file.
-
-### 4️⃣ Run Database Migrations
-```bash
-php artisan migrate
-```
-
-### 5️⃣ Run the Application
-```bash
-php artisan serve
-```
-Then visit `http://127.0.0.1:8000` in your browser. 🎉
-
----
 
 ## 🎨 Features
 ✅ Add new tasks  
@@ -72,10 +37,6 @@ Then visit `http://127.0.0.1:8000` in your browser. 🎉
 
 ---
 
-## 📸 Screenshots
-_Add some screenshots of your project here._
-
----
 
 ## 📌 License
 This project is open-source and free to use. 🚀
